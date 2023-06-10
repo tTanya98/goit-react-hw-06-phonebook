@@ -1,21 +1,24 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 15px;
-  margin-bottom: 30px;
-  border: 1px solid #000000;
-  border-radius: 4px;
+background-color: #9370db;
+width: 350px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+border: 1px solid #000;
+padding: 10px;
+border-radius: 11px;
 `;
 
 export const Label = styled.label`
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 6px;
   font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
 `;
 
 export const Input = styled.input`

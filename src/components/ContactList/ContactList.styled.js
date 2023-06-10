@@ -1,12 +1,25 @@
 import styled from 'styled-components';
 
 export const List = styled.ul`
-  padding-left: 30px;
+width: 350px;
+  background-color: #9370db;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 10px;
 `;
 
 export const Item = styled.li`
-  padding-left: 5px;
   font-size: 17px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
 
   &:not(:last-child) {
     margin-bottom: 15px;

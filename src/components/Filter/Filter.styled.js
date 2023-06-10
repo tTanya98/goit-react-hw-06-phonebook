@@ -6,6 +6,7 @@ export const Label = styled.label`
   gap: 8px;
   font-size: 16px;
   margin-bottom: 20px;
+  margin-top: 10px;
 `;
 
 export const Input = styled.input`

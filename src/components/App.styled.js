@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   padding: 30px 50px;
+  margin-bottom: 20px;
 `;
 
 export const MainHeader = styled.h1`
